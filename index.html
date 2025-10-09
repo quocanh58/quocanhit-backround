@@ -4,37 +4,55 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0" />
-    <title>RESPONSIVE PERSONAL PORTFOLIO</title>
+    <title>Tran Thien Quoc Anh | Backend Developer Portfolio</title>
     <link
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"
     />
     <link rel="stylesheet" type="text/css" href="style.css" />
   </head>
-
   <body>
-    <!--body-->
+    <!-- ======= HEADER ======= -->
     <header class="header">
-      <a href="#" class="logo">AlizehCodes</a>
+      <a href="#" class="logo">QuocAnhIT</a>
       <i class="bx bx-menu" id="menu-icon"></i>
       <nav class="navbar">
         <a href="#home" class="active">HOME</a>
         <a href="#about">ABOUT</a>
-        <a href="#services">SERVICES</a>
-        <a href="#portfolio">PORTFOLIO</a>
+        <a href="#services">SKILLS</a>
+        <a href="#portfolio">PROJECTS</a>
         <a href="#contact">CONTACT</a>
       </nav>
     </header>
+
+    <!-- ======= HOME ======= -->
     <section class="home" id="home">
       <div class="home-content">
-        <h3>Hello,It's Me</h3>
-        <h1>Trần Thiện Quốc Anh</h1>
+        <h3>Hello, I'm</h3>
+        <h1>Tran Thien Quoc Anh</h1>
         <h3>And I'm a <span class="multiple-text"></span></h3>
+        <p>
+          A results-driven <strong>Fullstack Developer</strong> with a passion
+          for crafting scalable backend systems and elegant user experiences. I
+          specialize in <strong>Java (Spring Boot)</strong> and
+          <strong>.NET</strong>, building clean architectures, optimizing
+          performance, and integrating modern DevOps tools to bring ideas to
+          life.
+        </p>
+
         <div class="social-media">
-          <a href="#"><i class="bx bxl-github"></i></a>
-          <a href="#"><i class="bx bxl-youtube"></i></a>
-          <a href="#"><i class="bx bxl-instagram"></i></a>
-          <a href="#"><i class="bx bxl-linkedin"></i></a>
+          <a href="https://github.com/quocanh58" target="_blank"
+            ><i class="bx bxl-github"></i
+          ></a>
+          <a href="https://www.linkedin.com/in/quocanhit58/" target="_blank"
+            ><i class="bx bxl-linkedin"></i
+          ></a>
+          <a href="https://www.linkedin.com/in/quocanhit58" target="_blank"
+            ><i class="bx bxl-instagram"></i
+          ></a>
+          <a href="https://www.facebook.com/quocanh.tt" target="_blank"
+            ><i class="bx bxl-facebook"></i
+          ></a>
         </div>
         <a
           href="https://www.topcv.vn/xem-cv/UAYOCA9SBwJbClANCQVVB1dXBVECBgVSAgRSAA5a41"
@@ -45,164 +63,177 @@
         >
       </div>
       <div class="home-img">
-        <img src="avt.png" alt="" />
+        <img src="avt.png" alt="Tran Thien Quoc Anh" />
       </div>
     </section>
+
+    <!-- ======= ABOUT ======= -->
     <section class="about" id="about">
       <div class="about-img">
-        <img src="avt.png" alt="" />
+        <div class="glow-border">
+          <img src="avt.png" alt="Quoc Anh" />
+        </div>
       </div>
+
       <div class="about-content">
         <h2 class="heading">About <span>Me</span></h2>
-        <h3>Frontend Developer</h3>
-        <p>
-          Hello! I'm Aliza, a front-end web designer & developer. I'm very
-          passionate about creating Unique and Interactive Designs.
+        <h3 class="role">🚀 Backend Developer</h3>
+
+        <p class="intro">
+          I'm a backend developer based in
+          <strong>Ho Chi Minh City</strong> with hands-on experience in
+          <span class="highlight">Java (Spring Boot)</span>,
+          <span class="highlight">C# (.NET)</span>,
+          <span class="highlight">PHP (Laravel)</span>, and
+          <span class="highlight">TypeScript (NestJS)</span>. <br /><br />
+          I love crafting scalable APIs, designing microservices, and
+          integrating cloud technologies like <strong>Docker</strong>,
+          <strong>Keycloak</strong>, and <strong>AWS</strong>. <br /><br />
+          My goal is to become a
+          <span class="highlight">Technical Leader</span> within the next three
+          years, building impactful software that makes a difference.
         </p>
-        <a href="#" class="btn">Read More</a>
+
+        <div class="about-buttons">
+          <a href="#" class="btn about-btn">Read More</a>
+          <a
+            href="https://github.com/quocanh58"
+            class="btn secondary-btn"
+            target="_blank"
+          >
+            <i class="bx bxl-github"></i> View GitHub
+          </a>
+        </div>
       </div>
     </section>
+
+    <!-- ======= SKILLS ======= -->
     <section class="services" id="services">
-      <h2 class="heading">Our <span>Services</span></h2>
+      <h2 class="heading">Technical <span>Skills</span></h2>
 
       <div class="services-container">
         <div class="services-box">
           <i class="bx bx-code-alt"></i>
-          <h3>Web Development</h3>
-          <p>
-            I'm working in web development.I enjoy creating beautiful web
-            designs using Html css and Js.
-          </p>
-          <a href="#" class="btn">Read More</a>
+          <h3>Backend Development</h3>
+          <ul class="skill-list">
+            <li>
+              <strong>Languages:</strong> Java (Spring Boot), C# (.NET), PHP
+              (Laravel), TypeScript (NestJS)
+            </li>
+            <li>
+              <strong>Architecture:</strong> Microservices, RESTful APIs, MVC
+            </li>
+            <li><strong>Security:</strong> OAuth2, JWT, Keycloak</li>
+            <li><strong>Database:</strong> MySQL, PostgreSQL, MongoDB</li>
+          </ul>
         </div>
 
         <div class="services-box">
-          <i class="bx bx-crop"></i>
-          <h3>UI/UX Design</h3>
-          <p>
-            I'm working as Canva Designer.I enjoy creating beautiful and
-            Professional designs.
-          </p>
-          <a href="#" class="btn">Read More</a>
+          <i class="bx bx-desktop"></i>
+          <h3>Frontend & UI</h3>
+          <ul class="skill-list">
+            <li><strong>Frameworks:</strong> ReactJS, NextJS</li>
+            <li><strong>Core:</strong> HTML5, CSS3, JavaScript</li>
+            <li>
+              <strong>UI/UX:</strong> Bootstrap, Tailwind, Responsive Design
+            </li>
+          </ul>
         </div>
 
         <div class="services-box">
-          <i class="bx bxl-instagram-alt"></i>
-          <h3>App Design</h3>
-          <p>
-            I'm working in App development and Design.I enjoy creating beautiful
-            and intuitive Apps using Kotlin.
-          </p>
-          <a href="#" class="btn">Read More</a>
+          <i class="bx bx-cloud"></i>
+          <h3>DevOps & Tools</h3>
+          <ul class="skill-list">
+            <li><strong>DevOps:</strong> Docker, GitLab CI/CD, SonarQube</li>
+            <li><strong>Cloud:</strong> AWS, Azure, VPS Deployment</li>
+            <li><strong>Others:</strong> Nginx, Linux, Postman</li>
+          </ul>
         </div>
       </div>
     </section>
+
+    <!-- ======= PROJECTS ======= -->
     <section class="portfolio" id="portfolio">
-      <h2 class="heading">Latest <span>Project</span></h2>
+      <h2 class="heading">Highlighted <span>Projects</span></h2>
       <div class="portfolio-container">
         <div class="portfolio-box">
-          <img src="TRAVEL.png" alt="" />
+          <img src="CAR_RENTAL_.png" alt="Talent Fusion" />
           <div class="portfolio-layer">
-            <h4>Travel</h4>
+            <h4>Talent Fusion – Job Platform</h4>
             <p>
-              Develop technical skills in web development.Gain practical
-              experience through collaboration.
+              Backend Developer for a job-matching platform with multiple
+              authentication methods (OAuth2, Google, GitHub, OTP) and scalable
+              REST APIs.
             </p>
             <a href="#"><i class="bx bx-link-external"></i></a>
           </div>
         </div>
+
         <div class="portfolio-box">
-          <img src="CAR_RENTAL_.png" alt="" />
+          <img src="TRAVEL.png" alt="Ticket Resell" />
           <div class="portfolio-layer">
-            <h4>Car Rental</h4>
+            <h4>Ticket Resell App</h4>
             <p>
-              Develop technical skills in web development.Gain practical
-              experience through collaboration.
+              Developed a resale platform supporting chat between users,
+              multiple payment methods, and Firebase integration.
             </p>
             <a href="#"><i class="bx bx-link-external"></i></a>
           </div>
         </div>
+
         <div class="portfolio-box">
-          <img src="MOVIES_.png" alt="" />
+          <img src="MOVIES_.png" alt="Class Robotic System" />
           <div class="portfolio-layer">
-            <h4>Movies</h4>
+            <h4>Class Robotic Management System</h4>
             <p>
-              Develop technical skills in web development.Gain practical
-              experience through collaboration.
-            </p>
-            <a href="#"><i class="bx bx-link-external"></i></a>
-          </div>
-        </div>
-        <div class="portfolio-box">
-          <img src="D'LIFE_.png" alt="" />
-          <div class="portfolio-layer">
-            <h4>Dlife</h4>
-            <p>
-              Develop technical skills in web development.Gain practical
-              experience through collaboration.
-            </p>
-            <a href="#"><i class="bx bx-link-external"></i></a>
-          </div>
-        </div>
-        <div class="portfolio-box">
-          <img src="PORTFOLIO_.png" alt="" />
-          <div class="portfolio-layer">
-            <h4>Portfolio</h4>
-            <p>
-              Develop technical skills in web development.Gain practical
-              experience through collaboration.
-            </p>
-            <a href="#"><i class="bx bx-link-external"></i></a>
-          </div>
-        </div>
-        <div class="portfolio-box">
-          <img src="G-FOOD_.png" alt="" />
-          <div class="portfolio-layer">
-            <h4>G-Food</h4>
-            <p>
-              Develop technical skills in web development.Gain practical
-              experience through collaboration.
+              Designed backend architecture with Docker, real-time ZNS
+              notifications, and secure role-based access control.
             </p>
             <a href="#"><i class="bx bx-link-external"></i></a>
           </div>
         </div>
       </div>
     </section>
+
+    <!-- ======= CONTACT ======= -->
     <section class="contact" id="contact">
-      <h2 class="heading">Contact <span>ME!</span></h2>
+      <h2 class="heading">Contact <span>Me!</span></h2>
 
       <form action="#" name="submit-to-google-sheet">
         <div class="input-box">
           <input type="text" name="Name" placeholder="Full Name" />
-          <input
-            type="email"
-            name="Email Address"
-            placeholder="Email Address"
-          />
+          <input type="email" name="Email" placeholder="Email Address" />
         </div>
         <div class="input-box">
-          <input
-            type="number"
-            name="Mobile Number"
-            placeholder="Mobile Number"
-          />
-          <input type="text" name="Email Subject" placeholder="Email Subject" />
+          <input type="text" name="Phone" placeholder="Phone Number" />
+          <input type="text" name="Subject" placeholder="Subject" />
         </div>
         <textarea
-          name="Your Message"
-          id=""
+          name="Message"
           cols="30"
           rows="10"
           placeholder="Your Message"
         ></textarea>
         <input type="submit" value="Send Message" class="btn" />
       </form>
-      <span id="msg"></span>
+
+      <div class="contact-info">
+        <p>
+          <strong>Email:</strong>
+          <a href="mailto:at050801@gmail.com">at050801@gmail.com</a>
+        </p>
+        <p><strong>Phone:</strong> (+84) 358 582 251</p>
+        <p>
+          <strong>Location:</strong> Thu Duc District, Ho Chi Minh City, Viet
+          Nam
+        </p>
+      </div>
     </section>
 
+    <!-- ======= FOOTER ======= -->
     <footer class="footer">
       <div class="footer-text">
-        <p>&copy; Alizeh Codes | All Rights Reserved.</p>
+        <p>&copy; 2025 Tran Thien Quoc Anh | All Rights Reserved.</p>
       </div>
       <div class="footer-iconTop">
         <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
@@ -210,7 +241,6 @@
     </footer>
 
     <script src="https://unpkg.com/scrollreveal"></script>
-
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script src="script.js"></script>
   </body>
